@@ -6,14 +6,15 @@ export default {
       fontFamily: {
         headerFonts: ["Audiowide", "sans-serif"],
         bodyFont: ["DM Sans", "sans-serif"],
+        navFont: ["Montserrat", "sans-serif"],
       },
       colors: {
-        "pri-bg": "023047",
-        "sec-bg": "045072",
-        "body-text": "8ECAE6",
-        "heading-text": "219EBC",
-        "cta-pri": "FB8500",
-        "cta-sec": "FFB703",
+        "pri-bg": "#023047",
+        "sec-bg": "#045072",
+        "body-text": "#8ECAE6",
+        "heading-text": "#219EBC",
+        "cta-pri": "#FB8500",
+        "cta-sec": "#FFB703",
       },
       fontSize: {
         "heading1-lg": "3.625rem",
