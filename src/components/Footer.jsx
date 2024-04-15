@@ -10,7 +10,7 @@ const Footer = () => {
             <div>
               <p>Bongomin Designs</p>
             </div>
-            <div className="mt-8 text-center font-navFont font-semibold text-base1 ">
+            <div className="mt-8 text-center font-navFont font-semibold text-base1 md:text-left">
               <p className="mb-2">
                 <span className="text-cta-pri">Phone:</span> 4253950516
               </p>
