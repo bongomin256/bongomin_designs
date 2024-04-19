@@ -1,4 +1,5 @@
 import heroImage from "../assets/hero.png";
+import AboutUsHome from "../components/AboutUsHome";
 import Button from "../components/Buttons";
 
 import OurServiceHome from "../components/OurServiceHome";
@@ -26,6 +27,7 @@ const HomePages = () => {
         </section>
       </section>
       <OurServiceHome />
+      <AboutUsHome />
     </>
   );
 };
