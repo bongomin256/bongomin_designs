@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const SectionLayout = ({ children, bgDefault = "bg-white" }) => {
+const SectionLayout = ({ children, bgDefault = "bg-[]" }) => {
   return (
     <section
       className={`${bgDefault} px-[1.5rem] py-16 md:px-[2rem] lg:py-40 lg:px-[8.063rem]`}
