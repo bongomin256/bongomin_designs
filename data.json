@@ -1,23 +1,23 @@
 {
   "ourServices": [
     {
-      "icon": "https://icons8.com/icon/7UppuczBBxEu/web-design",
+      "icon": "./assets/web-design.png",
       "title": "Web Design",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-      "icon": "https://icons8.com/icon/12447/google-code",
+      "icon": "./assets/web-development.png",
       "title": "Web Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-      "icon": "https://icons8.com/icon/12447/google-code",
+      "icon": "./assets/graphic-design.png",
       "title": "Graphic Design",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-      "icon": "https://icons8.com/icon/xQ8DheN2MgO4/search-engine",
-      "title": "Search Engine Optimization",
+      "icon": "./assets/seo.png",
+      "title": "SEO Optimization",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
   ]
