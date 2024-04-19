@@ -10,7 +10,7 @@ const ServiceCard = ({ services, widthDefault }) => {
         >
           <i className="">
             <img
-              className="m-auto w-[2.813rem] h-[2.813rem] bg-cta-pri text-cta-pri mb-8"
+              className="m-auto w-[2.813rem] h-[2.813rem]  mb-8"
               src={service.icon}
               alt={service.title}
             />
