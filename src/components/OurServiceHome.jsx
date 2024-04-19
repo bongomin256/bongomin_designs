@@ -6,8 +6,9 @@ import SectionLayout from "../layouts/SectionLayout";
 import ServiceCard from "./ServiceCard";
 const OurServiceHome = ({ bgDefault }) => {
   const services = data.ourServices;
+
   return (
-    <SectionLayout bgDefault={`bg-white`}>
+    <SectionLayout bgDefault={"bg-white"}>
       <section>
         <div className="mb-[4.688rem]">
           <h3 className="mb-6 text-center text-cta-sec text-heading3-sm font-headerFonts">
