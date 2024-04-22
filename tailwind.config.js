@@ -17,7 +17,8 @@ export default {
         "cta-sec": "#FFB703",
       },
       fontSize: {
-        "heading1-lg": "3.625rem",
+        "heading1-lg": "6rem",
+        "heading1-md": "3.625rem",
         "heading1-sm": "3rem",
         "heading2-lg": "3rem",
         "heading2-sm": "2.25rem",
@@ -25,6 +26,13 @@ export default {
         "heading3-sm": "1.25rem",
         base1: "1.125rem",
         base2: "1rem",
+      },
+      letterSpacing: {
+        sm: "0.125rem",
+        md: "0.875rem",
+      },
+      lineHeight: {
+        pHeight: "0.1572rem",
       },
     },
   },
