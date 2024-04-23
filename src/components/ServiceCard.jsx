@@ -18,7 +18,7 @@ const ServiceCard = ({ services, widthDefault }) => {
           <h4 className="mb-4 text-center text-heading3-lg text-cta-sec font-headerFonts lg:text-left lg:text-[1.44rem]">
             {service.title}
           </h4>
-          <div className="text-center">
+          <div className="text-justify">
             <p className=" text-base2 leading-[157.2%] mb-4">
               {service.description}
             </p>
