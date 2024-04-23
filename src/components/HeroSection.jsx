@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="px-[1.5rem] py-16 md:px-[2rem] lg:py-40 lg:px-[8.063rem]">
       <section className="flex flex-col lg:flex-row lg:gap-10 lg:items-center">
         <section className="z-10 text-center lg:text-left lg:basis-full ">
-          <p className="text-heading1-sm font-headerFonts mb-7 md:text-heading1-lg">
+          <p className="text-heading1-sm font-headerFonts mb-7 md:text-heading1-md">
             We help you turn your <span className="text-cta-pri">ideas</span>{" "}
             into a <span className="text-cta-pri">website</span>
           </p>
