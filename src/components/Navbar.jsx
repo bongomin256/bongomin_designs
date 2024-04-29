@@ -1,3 +1,4 @@
+import logo from "../assets/Bongomin.png";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa6";
 import { AiOutlineClose } from "react-icons/ai";
@@ -11,9 +12,10 @@ const Navbar = () => {
   return (
     <header className=" bg-[#15252d] sticky z-50 px-[1.5rem] md:px-[2rem] lg:px-[8.063rem] m-[0 auto]">
       {/* className="sticky z-50 px-[] md:w-[44rem] lg:w-[73.875rem] m-[0 auto]" */}
-      <nav className="flex justify-between items-center   py-3 md:py-4 lg:py-5">
+      <nav className="flex items-center justify-between py-3 md:py-4 lg:py-5">
         <div>
-          <h1>Bongoim Designs</h1>
+          {/* <h1>Bongoim Designs</h1> */}
+          <img src={logo} alt="" className="w-[13.5rem] h-[4.063rem]" />
         </div>
 
         <div onClick={() => toggleNavbar()} className="lg:hidden">
