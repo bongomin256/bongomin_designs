@@ -1,3 +1,5 @@
+import logo from "../assets/Bongomin.png";
+
 import { TbWorldWww } from "react-icons/tb";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
@@ -5,12 +7,13 @@ const Footer = () => {
   return (
     <footer className="bg-[#15252d] py-[3.75rem] px-[1.5rem] md:px-[2rem] lg:px-[8.063rem]">
       <section>
-        <section className="flex items-center gap-12 flex-col w-full md:flex-row md:justify-between md:items-start ">
+        <section className="flex flex-col items-center w-full gap-12 md:flex-row md:justify-between md:items-start ">
           <div>
             <div>
-              <p>Bongomin Designs</p>
+              {/* <p>Bongomin Designs</p> */}
+              <img src={logo} alt="logo" className="w-[216px] h-[65px]" />
             </div>
-            <div className="mt-8 text-center font-navFont font-semibold text-base1 md:text-left">
+            <div className="mt-8 font-semibold text-center font-navFont text-base1 md:text-left">
               <p className="mb-2">
                 <span className="text-cta-pri">Phone:</span> 4253950516
               </p>
@@ -18,7 +21,7 @@ const Footer = () => {
                 <span className="text-cta-pri">Email:</span> info@domain.com
               </p>
             </div>
-            <div className="flex justify-between text-cta-pri mt-5">
+            <div className="flex justify-between mt-5 text-cta-pri">
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 <TbWorldWww size={32} />
               </a>
@@ -34,7 +37,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <ul className="flex flex-col text-center gap-6 text-base1 md:text-end lg:flex-row">
+          <ul className="flex flex-col gap-6 text-center text-base1 md:text-end lg:flex-row">
             <li>Home</li>
             <li>About Us</li>
             <li>Services</li>
@@ -42,7 +45,7 @@ const Footer = () => {
             <li>Contact Us</li>
           </ul>
         </section>
-        <section className="flex flex-col text-center gap-8 text-base1 font-thin mt-12 lg:flex-row-reverse justify-between lg:text-left">
+        <section className="flex flex-col justify-between gap-8 mt-12 font-thin text-center text-base1 lg:flex-row-reverse lg:text-left">
           <div className="flex justify-between">
             <a href="http://" target="_blank" rel="noopener noreferrer">
               <p>Terms & Conditions</p>
