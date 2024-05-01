@@ -20,5 +20,75 @@
       "title": "SEO Optimization",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
+  ],
+  "portfolio": [
+    {
+      "category": "Web Design",
+      "projects": [
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        },
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        }
+      ]
+    },
+    {
+      "category": "Web Development",
+      "projects": [
+        {
+          "projectName": "Bongomin Web Development",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "Turned the Figma design into code"
+        },
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        }
+      ]
+    },
+    {
+      "category": "Graphic Design",
+      "projects": [
+        {
+          "projectName": "Project X",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "Description of the project"
+        },
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "projects": [
+        {
+          "projectName": "Project Y",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "Description of the project"
+        },
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        }
+      ]
+    }
   ]
 }
