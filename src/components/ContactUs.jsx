@@ -7,7 +7,7 @@ import ContactForm from "./ContactForm";
 
 const ContactUs = () => {
   return (
-    <SectionLayout>
+    <SectionLayout id="contactus">
       <section className="lg:w-[655px] md:m-auto">
         <div className="mb-10">
           <div className="flex items-center justify-center gap-3 text-center mb-[4.688rem] lg:mb-6">
