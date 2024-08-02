@@ -7,11 +7,21 @@ import PortfolioHome from "../components/PortfolioHome";
 const HomePages = () => {
   return (
     <>
-      <HeroSection />
-      <OurServiceHome />
-      <AboutUsHome />
-      <PortfolioHome />
-      <ContactUs />
+      <section id="home">
+        <HeroSection />
+      </section>
+      <section id="services">
+        <OurServiceHome />
+      </section>
+      <section id="aboutus">
+        <AboutUsHome />
+      </section>
+      <section id="portfolio">
+        <PortfolioHome />
+      </section>
+      <section id="contactus">
+        <ContactUs />
+      </section>
     </>
   );
 };

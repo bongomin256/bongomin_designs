@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import SectionLayout from "../layouts/SectionLayout";
 import PortfolioCard from "./PortfolioCard";
 
-const PortfolioHome = ({ bgDefault }) => {
+const PortfolioHome = ({ bgDefault, id }) => {
   const [portfolioData, setPortfolioData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [activeTab, setActiveTab] = useState("All Projects");
