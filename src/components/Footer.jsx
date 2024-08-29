@@ -72,7 +72,7 @@ const Footer = () => {
               <p>Privacy Policy</p>
             </a>
           </div>
-          <p>2024 Bongomin Web Solution. All rights reserved</p>
+          <p>2024 Bongomin Web Solutions. All rights reserved</p>
         </section>
       </section>
     </footer>
