@@ -1,7 +1,8 @@
 import { useState } from "react";
 // import { NavLink } from "react-router-dom";
 
-import logo from "../assets/Bongomin.png";
+// import logo from "../assets/Bongomin.png";
+import logo from "../assets/logoNew.png";
 
 import { FaBars } from "react-icons/fa6";
 import { AiOutlineClose } from "react-icons/ai";
@@ -11,6 +12,13 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const toggleNavbar = () => {
     setOpen(!open);
+    console.log(open);
+  };
+
+  const closeMobileNav = () => {
+    if (open) {
+      setOpen(false);
+    }
   };
   return (
     <header className=" bg-[#15252d] sticky z-50 px-[1.5rem] md:px-[2rem] lg:px-[8.063rem] m-[0 auto]">
@@ -18,7 +26,8 @@ const Navbar = () => {
       <nav className="flex items-center justify-between py-3 md:py-4 lg:py-5">
         <a href="#home">
           {/* <h1>Bongoim Designs</h1> */}
-          <img src={logo} alt="" className="w-[13.5rem] h-[4.063rem]" />
+          <img src={logo} alt="" className="w-[7.5rem] lg:w-[12.5rem] h-[]" />
+          {/* w-[13.5rem] h-[4.063rem] */}
         </a>
 
         <div onClick={() => toggleNavbar()} className="lg:hidden">
@@ -31,6 +40,7 @@ const Navbar = () => {
               ? "block absolute top-[100%] bg-[#15252d] w-full left-0 p-6"
               : "hidden"
           } lg:flex lg:items-center lg:gap-4 `}
+          onClick={() => closeMobileNav()}
         >
           {/* <div
             className={`${

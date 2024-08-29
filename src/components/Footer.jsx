@@ -1,4 +1,4 @@
-import logo from "../assets/Bongomin.png";
+import logo from "../assets/logoNew.png";
 
 import { TbWorldWww } from "react-icons/tb";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
@@ -11,7 +11,11 @@ const Footer = () => {
           <div>
             <div>
               {/* <p>Bongomin Designs</p> */}
-              <img src={logo} alt="logo" className="w-[216px] h-[65px]" />
+              <img
+                src={logo}
+                alt="logo"
+                className="w-[7.5rem] m-auto md:m-0  lg:w-[12.5rem] h-[]"
+              />
             </div>
             <div className="mt-8 font-semibold text-center font-navFont text-base1 md:text-left">
               <p className="mb-2">

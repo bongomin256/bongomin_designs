@@ -1,0 +1,94 @@
+{
+  "ourServices": [
+    {
+      "icon": "./assets/web-design.png",
+      "title": "Web Design",
+      "description": "Transform your vision into a stunning reality with our innovative web design services. Our creative experts craft visually appealing and user-friendly designs tailored to elevate your brand's online presence. Ready to stand out? Request a quote now!"
+    },
+    {
+      "icon": "./assets/coding.png",
+      "title": "Web Development",
+      "description": "Bring your ideas to life with our robust web development solutions. Our skilled developers build high-performing, secure, and scalable websites that drive results and enhance user experience. Get your project started today!"
+    },
+    {
+      "icon": "./assets/ux-design.png",
+      "title": "UX/UI/Graphic ",
+      "description": "Enhance user satisfaction with our expert UX/UI design services. We focus on creating intuitive and engaging interfaces that ensure seamless navigation and a delightful user experience. Let’s make your digital product exceptional."
+    },
+    {
+      "icon": "./assets/search-engine-optimisation.png",
+      "title": "SEO Optimization",
+      "description": "Boost your online visibility and attract more traffic with our comprehensive SEO optimization services. Our strategies are designed to improve search engine rankings and drive organic growth for your business. Ready to grow?"
+    }
+  ],
+  "portfolio": [
+    {
+      "category": "Web Design",
+      "projects": [
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        },
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        }
+      ]
+    },
+    {
+      "category": "Web Development",
+      "projects": [
+        {
+          "projectName": "Bongomin Web Development",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "Turned the Figma design into code"
+        },
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        }
+      ]
+    },
+    {
+      "category": "Graphic Design",
+      "projects": [
+        {
+          "projectName": "Project X",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "Description of the project"
+        },
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "projects": [
+        {
+          "projectName": "Project Y",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "Description of the project"
+        },
+        {
+          "projectName": "Bongomin Web Design",
+          "imgUrl": "./assets/about.png",
+          "url": "url here",
+          "taskDescription": "We used Figma to come up with the design"
+        }
+      ]
+    }
+  ]
+}
