@@ -14,7 +14,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="logo"
-                className="w-[7.5rem] m-auto md:m-0  lg:w-[12.5rem] h-[]"
+                className="w-[7.5rem] m-auto cursor-pointer md:m-0  lg:w-[12.5rem] h-[]"
               />
             </div>
             <div className="mt-8 font-semibold text-center font-navFont text-base1 md:text-left">
@@ -22,7 +22,8 @@ const Footer = () => {
                 <span className="text-cta-pri">Phone:</span> 4253950516
               </p>
               <p>
-                <span className="text-cta-pri">Email:</span> info@domain.com
+                <span className="mr-1 text-cta-pri">Email:</span>
+                <a href="mailto:info@domain.com">info@domain.com</a>
               </p>
             </div>
             <div className="flex justify-between mt-5 text-cta-pri">
@@ -42,11 +43,24 @@ const Footer = () => {
             </div>
           </div>
           <ul className="flex flex-col gap-6 text-center text-base1 md:text-end lg:flex-row">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Contact Us</li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#aboutus">About Us</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#testimonial">Testimonial</a>
+            </li>
+            <li>
+              <a href="#contactus">Contact Us</a>
+            </li>
           </ul>
         </section>
         <section className="flex flex-col justify-between gap-8 mt-12 font-thin text-center text-base1 lg:flex-row-reverse lg:text-left">
@@ -58,7 +72,7 @@ const Footer = () => {
               <p>Privacy Policy</p>
             </a>
           </div>
-          <p>2024 Company Name. All rights reserved</p>
+          <p>2024 Bongomin Web Solution. All rights reserved</p>
         </section>
       </section>
     </footer>
