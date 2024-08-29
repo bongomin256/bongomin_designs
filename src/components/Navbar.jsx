@@ -21,7 +21,7 @@ const Navbar = () => {
     }
   };
   return (
-    <header className=" bg-[#15252d] sticky z-50 px-[1.5rem] md:px-[2rem] lg:px-[8.063rem] m-[0 auto]">
+    <header className=" bg-[#15252d] sticky z-50 top-0 px-[1.5rem] md:px-[2rem] lg:px-[8.063rem] m-[0 auto]">
       {/* className="sticky z-50 px-[] md:w-[44rem] lg:w-[73.875rem] m-[0 auto]" */}
       <nav className="flex items-center justify-between py-3 md:py-4 lg:py-5">
         <a href="#home">
@@ -35,9 +35,9 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`text-base1 cursor-pointer transition-all duration-500 delay-500 ease-in-out text-heading-text font-navFont font-semibold ${
+          className={`left-0 text-base1 cursor-pointer transition-all duration-500 delay-500 ease-in-out text-heading-text font-navFont font-semibold ${
             open
-              ? "block absolute top-[100%] bg-[#15252d] w-full left-0 p-6"
+              ? "block absolute top-[100%] h-screen bg-pri-bg w-full  p-6"
               : "hidden"
           } lg:flex lg:items-center lg:gap-4 `}
           onClick={() => closeMobileNav()}
