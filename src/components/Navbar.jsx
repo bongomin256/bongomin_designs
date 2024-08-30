@@ -37,9 +37,9 @@ const Navbar = () => {
         <ul
           className={`left-0 text-base1 cursor-pointer transition-all duration-500 delay-500 ease-in-out text-heading-text font-navFont font-semibold ${
             open
-              ? "block absolute top-[100%] h-screen bg-pri-bg w-full  p-6"
-              : "hidden"
-          } lg:flex lg:items-center lg:gap-4 `}
+              ? " block absolute top-[100%] h-screen bg-pri-bg w-full  p-6"
+              : " hidden "
+          } lg:flex lg:items-center lg:gap-4 lg:transition-none`}
           onClick={() => closeMobileNav()}
         >
           {/* <div
