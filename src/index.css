@@ -4,12 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  --position-reativi: relative;
+} */
+
 html {
   scroll-behavior: smooth;
+  /* position: var(--position-reativi); */
 }
 
 body {
   /* background-color: #15252d; */
   background-color: #023047;
   color: #8ecae6;
+  /* position: var(--position-reativi); */
 }
+
+/* .swiper {
+  width: auto;
+  height: auto;
+} */

@@ -42,23 +42,23 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <ul className="flex flex-col gap-6 text-center text-base1 md:text-end lg:flex-row">
-            <li>
+          <ul className="flex flex-col gap-6 text-center cursor-pointer text-base1 md:text-end lg:flex-row">
+            <li className="hover:text-white">
               <a href="#home">Home</a>
             </li>
-            <li>
+            <li className="hover:text-white">
               <a href="#aboutus">About Us</a>
             </li>
-            <li>
+            <li className="hover:text-white">
               <a href="#services">Services</a>
             </li>
-            <li>
+            <li className="hover:text-white">
               <a href="#portfolio">Portfolio</a>
             </li>
-            <li>
+            <li className="hover:text-white">
               <a href="#testimonial">Testimonial</a>
             </li>
-            <li>
+            <li className="hover:text-white">
               <a href="#contactus">Contact Us</a>
             </li>
           </ul>

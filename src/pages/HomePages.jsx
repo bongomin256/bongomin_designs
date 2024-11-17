@@ -3,6 +3,7 @@ import ContactUs from "../components/ContactUs";
 import HeroSection from "../components/HeroSection";
 import OurServiceHome from "../components/OurServiceHome";
 import PortfolioHome from "../components/PortfolioHome";
+import Testimonial from "../components/Testimonial";
 
 const HomePages = () => {
   return (
@@ -18,6 +19,9 @@ const HomePages = () => {
       </section>
       <section id="portfolio">
         <PortfolioHome />
+      </section>
+      <section id="testimonal">
+        <Testimonial />
       </section>
       <section id="contactus">
         <ContactUs />

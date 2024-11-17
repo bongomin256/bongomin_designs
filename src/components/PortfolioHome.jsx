@@ -7,41 +7,43 @@ import PortfolioCard from "./PortfolioCard";
 
 const PortfolioHome = ({ bgDefault, id }) => {
   const [portfolioData, setPortfolioData] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
-  const [activeTab, setActiveTab] = useState("All Projects");
+  // const [filteredData, setFilteredData] = useState([]);
+  // const [activeTab, setActiveTab] = useState("All Projects");
 
-  const tabs = [
-    "All Projects",
-    "Web Design",
-    "Web Development",
-    "Graphic Design",
-    "SEO",
-  ];
+  // const tabs = [
+  //   "All Projects",
+  //   "Web Design",
+  //   "Web Development",
+  //   "Graphic Design",
+  //   "SEO",
+  // ];
 
   useEffect(() => {
+    // Fetch and set data
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         setPortfolioData(data.portfolio);
-        setFilteredData(data.portfolio.flatMap((item) => item.projects)); // Initialize with all projects
-        console.log(filteredData);
+        console.log(portfolioData);
+
+        // setFilteredData(data.portfolio.flatMap((item) => item.projects)); // Initialize with all projects
       })
       .catch((error) => console.error("Error fetching the data:", error));
   }, []);
 
-  // Filter projects based on the active tab
-  useEffect(() => {
-    if (portfolioData.length > 0) {
-      if (activeTab === "All Projects") {
-        setFilteredData(portfolioData.flatMap((item) => item.projects));
-      } else {
-        const category = portfolioData.find(
-          (item) => item.category === activeTab
-        );
-        setFilteredData(category ? category.projects : []);
-      }
-    }
-  }, [activeTab, portfolioData]);
+  // // Handle tab switching and filtering
+  // const handleTabChange = (tab) => {
+  //   setActiveTab(tab);
+  //   if (tab === "All Projects") {
+  //     // Show all projects
+  //     setFilteredData(portfolioData.flatMap((item) => item.projects));
+  //   } else {
+  //     // Show projects for the specific category
+  //     const category = portfolioData.find((item) => item.category === tab);
+  //     setFilteredData(category ? category.projects : []);
+  //   }
+  // };
 
   return (
     <SectionLayout bgDefault={`bg-white`}>
@@ -59,31 +61,27 @@ const PortfolioHome = ({ bgDefault, id }) => {
           </h2>
         </div>
         <section>
-          <ul className="flex flex-row flex-wrap gap-4 text-heading3-sm mb-7 lg:justify-center">
-            {tabs &&
-              tabs.map((tab) => (
-                <li
-                  key={tab}
-                  className={`px-4 py-2 mx-2 transition-all ease-in-out duration-300 ${
-                    activeTab === tab
-                      ? "bg-blue-500 text-white"
-                      : "bg-gray-200 text-gray-700"
-                  } rounded cursor-pointer`}
-                  onClick={() => setActiveTab(tab)}
-                >
-                  {tab}
-                </li>
-              ))}
-          </ul>
+          {/* <ul className="flex flex-row flex-wrap gap-4 text-heading3-sm mb-7 lg:justify-center">
+            {tabs.map((tab) => (
+              <li
+                key={tab}
+                className={`px-4 py-2 mx-2 transition-all ease-in-out duration-300 ${
+                  activeTab === tab
+                    ? "bg-blue-500 text-white"
+                    : "bg-gray-200 text-gray-700"
+                } rounded cursor-pointer`}
+                onClick={() => handleTabChange(tab)}
+              >
+                {tab}
+              </li>
+            ))}
+          </ul> */}
           <div className="flex flex-col justify-center gap-3 transition-all duration-500 ease-in-out md:flex-row md:gap-5 md:flex-wrap">
-            {/* grid gap-3 md:grid-flow-col md:grid-rows-3 md:justify-center
-            lg:gap-5 */}
-
-            {filteredData.map((project, index) => (
+            {portfolioData.map((project, index) => (
               <PortfolioCard
                 key={index}
-                category={activeTab}
-                catName={portfolioData.categoru}
+                // category={activeTab}
+                // catName={portfolioData.category}
                 project={project}
               />
             ))}
