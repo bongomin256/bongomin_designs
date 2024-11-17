@@ -9,7 +9,16 @@ import { AiOutlineClose } from "react-icons/ai";
 import Button from "./Buttons";
 
 const Navbar = () => {
+  const links = [
+    { label: "Home", href: "#home" },
+    { label: "Services", href: "#services" },
+    { label: "Portfolio", href: "#portfolio" },
+    { label: "Testimonial", href: "#testimonal" },
+    { label: "Contact Us", href: "#contactus" },
+  ];
   const [open, setOpen] = useState(false);
+  const [activeNav, setActiveNav] = useState("#home");
+
   const toggleNavbar = () => {
     setOpen(!open);
     console.log(open);
@@ -19,6 +28,10 @@ const Navbar = () => {
     if (open) {
       setOpen(false);
     }
+  };
+
+  const activeNavBar = (link) => {
+    setActiveNav(link);
   };
   return (
     <header className=" bg-[#15252d] sticky z-50 top-0 px-[1.5rem] md:px-[2rem] lg:px-[8.063rem] m-[0 auto]">
@@ -35,22 +48,30 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`left-0 text-base1 cursor-pointer transition-all duration-500 delay-500 ease-in-out text-heading-text font-navFont font-semibold ${
+          className={`left-0 text-base1 cursor-pointer transition-all duration-500 delay-500 ease-in-out text-heading-text font-navFont  ${
             open
               ? " block absolute top-[100%] h-screen bg-pri-bg w-full  p-6"
               : " hidden "
           } lg:flex lg:items-center lg:gap-4 lg:transition-none`}
           onClick={() => closeMobileNav()}
         >
-          {/* <div
-            className={`${
-              open
-                ? "block z-[1000] absolute top-0 right-0 left-0 text-red w-full"
-                : "hidden"
-            }`}
-          ></div> */}
-          {/* lg:flex lg:items-center lg:gap-4 lg:py-4` */}
-          <li
+          {links.map((link) => (
+            <li
+              key={link.href}
+              className={`hover:text-white transition-all duration-300 ease-in-out ${
+                open ? "mb-4" : "p-4"
+              } ${
+                activeNav === link.href
+                  ? "text-white font-semibold"
+                  : "text-body-text"
+              }`}
+              onClick={() => activeNavBar(link.href)}
+            >
+              <a href={link.href}>{link.label}</a>
+            </li>
+          ))}
+
+          {/* <li
             className={`hover:text-body-text transition-all duration-300 ease-in-out ${
               open ? "mb-4" : "p-4"
             } `}
@@ -63,10 +84,9 @@ const Navbar = () => {
             } `}
           >
             <a href="#services">Services</a>
-            {/* Services */}
+            
           </li>
-          {/* ${open ? "ml-6 pl-0 py-4  md:ml-8 md:pl-0 md:py-4 " : "p-4"}` */}
-          {/* ${open ? "mb-4" : "p-4"}` */}
+          
           <li
             className={`hover:text-body-text transition-all duration-300 ease-in-out ${
               open ? "mb-4" : "p-4"
@@ -74,7 +94,7 @@ const Navbar = () => {
               `}
           >
             <a href="#portfolio">Portfolio</a>
-            {/* Portfolio */}
+            
           </li>
           <li
             className={`hover:text-body-text transition-all duration-300 ease-in-out ${
@@ -82,8 +102,8 @@ const Navbar = () => {
             }
             `}
           >
-            <a href="#testimonial">Testimonial</a>
-            {/* Testimonial */}
+            <a href="#testimonal">Testimonial</a>
+            
           </li>
           <li
             className={`hover:text-body-text transition-all duration-300 ease-in-out ${
@@ -92,8 +112,8 @@ const Navbar = () => {
             `}
           >
             <a href="#contactus">Contact Us</a>
-            {/* Contact Us */}
-          </li>
+            
+          </li> */}
           <Button>Get in touch</Button>
         </ul>
       </nav>

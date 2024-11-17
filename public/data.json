@@ -23,72 +23,48 @@
   ],
   "portfolio": [
     {
-      "category": "Web Design",
-      "projects": [
-        {
-          "projectName": "Bongomin Web Design",
-          "imgUrl": "./assets/about.png",
-          "url": "url here",
-          "taskDescription": "We used Figma to come up with the design"
-        },
-        {
-          "projectName": "Bongomin Web Design",
-          "imgUrl": "./assets/about.png",
-          "url": "url here",
-          "taskDescription": "We used Figma to come up with the design"
-        }
-      ]
+      "projectName": "Creative Women",
+      "imgUrl": "./assets/cw.png",
+      "url": "https://creativewomen.net/",
+      "tag": "Shopify, liquid and Javascript",
+      "taskDescription": "Designed a high-conversion e-commerce layout in Figma and implemented it using Shopify's Liquid framework and JavaScript."
     },
     {
-      "category": "Web Development",
-      "projects": [
-        {
-          "projectName": "Bongomin Web Development",
-          "imgUrl": "./assets/about.png",
-          "url": "url here",
-          "taskDescription": "Turned the Figma design into code"
-        },
-        {
-          "projectName": "Bongomin Web Design",
-          "imgUrl": "./assets/about.png",
-          "url": "url here",
-          "taskDescription": "We used Figma to come up with the design"
-        }
-      ]
+      "projectName": "Knot Your Planner",
+      "imgUrl": "./assets/kyp.png",
+      "url": "https://knotyourplanner.com/",
+      "tag": "Word Press, Elementor",
+      "taskDescription": "Developed a customizable and visually appealing site layout using WordPress and Elementor, based on an initial design concept created in Figma."
     },
     {
-      "category": "Graphic Design",
-      "projects": [
-        {
-          "projectName": "Project X",
-          "imgUrl": "./assets/about.png",
-          "url": "url here",
-          "taskDescription": "Description of the project"
-        },
-        {
-          "projectName": "Bongomin Web Design",
-          "imgUrl": "./assets/about.png",
-          "url": "url here",
-          "taskDescription": "We used Figma to come up with the design"
-        }
-      ]
+      "projectName": "Bee Organized",
+      "imgUrl": "./assets/beeorg.png",
+      "url": "https://beeorganized.com/",
+      "tag": "Word Press, Custom HTML and CSS",
+      "taskDescription": "Built a fully responsive and SEO-optimized blog post in WordPress using custom HTML and CSS for unique design elements"
     },
     {
-      "category": "SEO",
-      "projects": [
-        {
-          "projectName": "Project Y",
-          "imgUrl": "./assets/about.png",
-          "url": "url here",
-          "taskDescription": "Description of the project"
-        },
-        {
-          "projectName": "Bongomin Web Design",
-          "imgUrl": "./assets/about.png",
-          "url": "url here",
-          "taskDescription": "We used Figma to come up with the design"
-        }
-      ]
+      "projectName": "Bongomin Web Solutions",
+      "imgUrl": "./assets/bws.png",
+      "url": "https://bongominwebsolutions.com/",
+      "tag": "Custom Design, reactJs, Tailwinds",
+      "taskDescription": "We created a modern, user-friendly web design concept in Figma, which we then developed using ReactJS for interactive functionality and Tailwind CSS for efficient, responsive styling across desktop and mobile views."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Roza Hendrickson",
+      "review": "I have had the pleasure of working with Bongo over the last 6 months. In this time, I have come to know him as a very diligent and hard worker. Bongo has been key in supporting our business across a myriad of tech needs, including building integrations across CRM and Marketing platforms, enhancing our SEO, and optimizing Google Analytics. He is a quick learner and at the same time is not afraid to reach out with questions or receive feedback. Bongo is also great at time and project management, and is often the one nudging me along to meet a deadline - which is much appreciated! He is a professional with integrity in his work and I am happy to recommend him to anyone in need of tech support!",
+      "image": "./assets/review/roza.jpg",
+      "company": "Bee Organized Corp",
+      "title": "Client Service Manager"
+    },
+    {
+      "name": "Allison Fisher",
+      "review": "Our experience with Bongo has been exceptional! He consistently delivers prompt service to support us with our technical challenges. Bongo is knowledgeable in many areas and is quick to research and learn new things that may be outside of his area of expertise. He's professional, diligent and reliable—Bongo is a great asset to our outsourced technical support.",
+      "image": "./assets/review/allison.jpg",
+      "company": "Bee Organized Corp",
+      "title": "Business Development"
     }
   ]
 }

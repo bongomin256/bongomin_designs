@@ -90,5 +90,21 @@
         }
       ]
     }
+  ],
+  "testimonials": [
+    {
+      "name": "Roza Hendrickson",
+      "review": "I have had the pleasure of working with Bongo over the last 6 months. In this time, I have come to know him as a very diligent and hard worker. Bongo has been key in supporting our business across a myriad of tech needs, including building integrations across CRM and Marketing platforms, enhancing our SEO, and optimizing Google Analytics. He is a quick learner and at the same time is not afraid to reach out with questions or receive feedback. Bongo is also great at time and project management, and is often the one nudging me along to meet a deadline - which is much appreciated! He is a professional with integrity in his work and I am happy to recommend him to anyone in need of tech support!",
+      "image": "./assets/review/roza.jpg",
+      "company": "Bee Organized Corp",
+      "title": "Client Service Manager"
+    },
+    {
+      "name": "Allison Fisher",
+      "review": "Our experience with Bongo has been exceptional! He consistently delivers prompt service to support us with our technical challenges. Bongo is knowledgeable in many areas and is quick to research and learn new things that may be outside of his area of expertise. He's professional, diligent and reliable—Bongo is a great asset to our outsourced technical support.",
+      "image": "./assets/review/allison.jpg",
+      "company": "Bee Organized Corp",
+      "title": "Business Development"
+    }
   ]
 }
