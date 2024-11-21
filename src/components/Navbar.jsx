@@ -114,7 +114,9 @@ const Navbar = () => {
             <a href="#contactus">Contact Us</a>
             
           </li> */}
-          <Button>Get in touch</Button>
+          <a href="#contactus">
+            <Button>Get in touch</Button>
+          </a>
         </ul>
       </nav>
     </header>
