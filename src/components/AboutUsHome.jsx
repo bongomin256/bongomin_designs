@@ -24,9 +24,9 @@ const AboutUsHome = () => {
               our team is committed to delivering impactful and innovative web
               solutions
             </p>
-            <div className="lg:text-right">
+            {/* <div className="lg:text-right">
               <Button>Learn more</Button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="opacity-25 mt-[-9rem] md:mt-[-2rem] lg:flex-1 lg:mt-0">

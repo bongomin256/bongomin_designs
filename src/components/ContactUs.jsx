@@ -28,13 +28,15 @@ const ContactUs = () => {
               <span>
                 <AiOutlineMail size={24} className="text-cta-sec" />
               </span>
-              info@companydomain.com
+              <a href="mailto:bongominwebsolutions@gmail.com">
+                bongominwebsolutions@gmail.com
+              </a>
             </p>
             <p className="flex items-center gap-4">
               <span>
                 <FaPhone size={24} className="text-cta-sec" />
               </span>
-              555 555 5555
+              <a href="tel:+14253950516">4253950516</a>
             </p>
           </div>
           <ContactForm />

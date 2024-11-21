@@ -73,7 +73,7 @@ const ContactForm = () => {
         // onChange={(e) => setFullName(e.target.value)}
         value={formData.fullName}
         onChange={inputHandler}
-        className="py-3 pl-6 rounded-xl bg-heading-text text-white placeholder:text-[#023047] border-0 outline-0 active:bg-white"
+        className="py-3 pl-6 rounded-xl bg-heading-text text-white placeholder:text-[#023047] border-0 outline-0 active:bg-white focus:bg-white focus:text-[#023047] transition-colors duration-300 hover:bg-white"
       />
       <input
         type="email"
@@ -84,7 +84,7 @@ const ContactForm = () => {
         value={formData.email}
         onChange={inputHandler}
         placeholder="Your email address"
-        className="py-3 pl-6 rounded-xl bg-heading-text text-white placeholder:text-[#023047] border-0 outline-0 active:bg-white"
+        className="py-3 pl-6 rounded-xl bg-heading-text text-white placeholder:text-[#023047] border-0 outline-0 active:bg-white  focus:bg-white focus:text-[#023047] transition-colors duration-300 hover:bg-white"
       />
       <input
         type="text"
@@ -94,12 +94,12 @@ const ContactForm = () => {
         // value={companyName}
         value={formData.companyName}
         onChange={inputHandler}
-        className="py-3 pl-6 rounded-xl bg-heading-text text-white placeholder:text-[#023047] border-0 outline-0 active:bg-white"
+        className="py-3 pl-6 rounded-xl bg-heading-text text-white placeholder:text-[#023047] border-0 outline-0 active:bg-white  focus:bg-white focus:text-[#023047] transition-colors duration-300 hover:bg-white"
       />
       <textarea
         name="description"
         placeholder="Tell us about the project"
-        className="py-3 pl-6 rounded-xl bg-heading-text text-white placeholder:text-[#023047] border-0 outline-0 active:bg-white"
+        className="py-3 pl-6 rounded-xl bg-heading-text text-white placeholder:text-[#023047] border-0 outline-0 active:bg-white  focus:bg-white focus:text-[#023047] transition-colors duration-300 hover:bg-white"
         id=""
         required
         // value={description}

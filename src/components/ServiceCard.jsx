@@ -22,7 +22,7 @@ const ServiceCard = ({ services, widthDefault }) => {
             <p className=" text-base2 leading-[157.2%] mb-4">
               {service.description}
             </p>
-            <Button widthDefault="w-full px-5 py-3">Request a quote</Button>
+            {/* <Button widthDefault="w-full px-5 py-3">Request a quote</Button> */}
           </div>
         </section>
       ))}

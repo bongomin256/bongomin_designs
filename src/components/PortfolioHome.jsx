@@ -17,6 +17,7 @@ const PortfolioHome = ({ bgDefault, id }) => {
   //   "Graphic Design",
   //   "SEO",
   // ];
+  console.log(portfolioData);
 
   useEffect(() => {
     // Fetch and set data

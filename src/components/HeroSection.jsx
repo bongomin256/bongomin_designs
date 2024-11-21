@@ -15,8 +15,9 @@ const HeroSection = () => {
             marketers, our team is equipped with the knowledge and experience to
             meet your unique requirements.
           </p>
-
-          <Button>Request a Quote</Button>
+          <a href="mailto:bongominwebsolutions@gmail.com?subject=Website%20Inquiry'">
+            <Button>Talk to Us</Button>
+          </a>
         </section>
         <section className="mt-[-4rem] md:mt-[-4.5rem] lg:mt-0 lg:basis-full ">
           <img className="w-full" src={heroImage} alt="" />
