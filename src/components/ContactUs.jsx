@@ -18,7 +18,7 @@ const ContactUs = () => {
             <span className=" w-[4.5rem] border-b border-cta-sec"></span>
           </div>
           <h2 className="text-center text-heading-text text-heading3-lg font-headerFonts md:text-left">
-            Connect and collaborate with us and we build something Amazing
+            Connect to collaborate with us and we can build something amazing
             together
           </h2>
         </div>

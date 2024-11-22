@@ -13,7 +13,7 @@ const Navbar = () => {
     { label: "Home", href: "#home" },
     { label: "Services", href: "#services" },
     { label: "Portfolio", href: "#portfolio" },
-    { label: "Testimonial", href: "#testimonal" },
+    { label: "Testimonials", href: "#testimonal" },
     { label: "Contact Us", href: "#contactus" },
   ];
   const [open, setOpen] = useState(false);

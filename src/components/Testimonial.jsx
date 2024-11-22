@@ -42,7 +42,7 @@ const Testimonial = ({ bgDefault }) => {
             <span className=" w-[4.5rem] border-b border-cta-sec"></span>
           </div>
           <h2 className="text-center text-heading-text text-heading2-sm font-headerFonts">
-            What People Say
+            What People Are Saying
           </h2>
           <div className="text-center">
             <p className="leading-7 text-base2">
