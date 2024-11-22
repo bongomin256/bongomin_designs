@@ -13,16 +13,16 @@ const AboutUsHome = () => {
           </h2>
           <div className="text-center lg:text-justify">
             <p className="mb-5 leading-7 text-base2 md:mb-7">
-              We are the Bongonmin Consulting Group– a dedicated team of tech
+              We are the Bongonmin Web Solutions – a dedicated team of tech
               enthusiasts, creatives, and problem solvers passionate about
-              shaping the digital future. we believe in the transformative power
-              of web development, and our mission is to seamlessly blend
-              innovation with functionality.
+              shaping the digital future. We believe in the transformative power
+              of web development. Our mission is to seamlessly blend innovation
+              with functionality.
             </p>
             <p className="mb-5 leading-7 text-base2 md:mb-7">
-              Experience the synergy of creativity and technology at BC where
+              Experience the synergy of creativity and technology at BWS where
               our team is committed to delivering impactful and innovative web
-              solutions
+              solutions.
             </p>
             {/* <div className="lg:text-right">
               <Button>Learn more</Button>

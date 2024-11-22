@@ -109,7 +109,7 @@ const ContactForm = () => {
         //   rows="10"
       ></textarea>
 
-      <Button type="submit">Get intouch</Button>
+      <Button type="submit">Get In Touch</Button>
     </form>
   );
 };
