@@ -42,8 +42,8 @@ const Footer = () => {
               </p>
               <p>
                 {/* <span className="mr-1 text-cta-pri">Email:</span> */}
-                <a href="mailto:bongominwebsolutions@gmail.com">
-                  bongominwebsolutions@gmail.com
+                <a href="mailto:info@bongominwebsolutions.com">
+                  info@bongominwebsolutions.com
                 </a>
               </p>
             </div>
