@@ -28,8 +28,8 @@ const ContactUs = () => {
               <span>
                 <AiOutlineMail size={24} className="text-cta-sec" />
               </span>
-              <a href="mailto:bongominwebsolutions@gmail.com">
-                bongominwebsolutions@gmail.com
+              <a href="mailto:info@bongominwebsolutions.com">
+                info@bongominwebsolutions.com
               </a>
             </p>
             <p className="flex items-center gap-4">
